@@ -20,21 +20,19 @@ body {
 
 .convite {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: flex-end; /* Move os itens para a parte inferior */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: space-between; /* Espaça os elementos no topo e no final */
+    align-items: center; /* Centraliza horizontalmente */
     height: 100vh; /* Preenche toda a altura da tela */
-    position: relative; /* Necessário para posicionamento dos itens */
+    padding: 20px; /* Adiciona um espaçamento interno opcional */
 }
 
 .botao {
-	display: flex;
-		justify-content: space-around;
-		gap: 33px;
-		position: absolute;
-		bottom: 120px;
-		width: 160px;
+    display: flex;
+    justify-content: space-between; /* Espaça os ícones horizontalmente */
+    gap: 20px; /* Espaçamento entre os ícones */
 }
-
+  
 img {
     width: 75px; /* Tamanho dos ícones */
 }
